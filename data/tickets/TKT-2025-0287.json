@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2025-0287",
+  "subject": "Regenerating an API key on 3.8",
+  "customer_question": "Our integration partner leaked our API key. How do I get a new one? (3.8)",
+  "intent": "account",
+  "resolution": "The customer regenerated the key in Settings > Developer > API keys > Regenerate. The agent reminded them that the old key stops immediately and to update the partner integration.",
+  "tags": [
+    "api-key",
+    "security",
+    "3.x"
+  ],
+  "resolved_at": "2025-02-20",
+  "product_version": "3.8",
+  "escalated_to_human": false
+}

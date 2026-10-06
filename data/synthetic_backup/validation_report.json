@@ -1,0 +1,383 @@
+{
+  "ok": true,
+  "steps": [
+    {
+      "name": "generate",
+      "ok": true,
+      "detail": "seeded generator, 36 accounts"
+    },
+    {
+      "name": "validate_schema",
+      "ok": true,
+      "detail": "0 schema errors"
+    },
+    {
+      "name": "validate_business",
+      "ok": true,
+      "detail": "0 errors; 20/20 edge-case and coverage checks passed"
+    },
+    {
+      "name": "export_csv",
+      "ok": true,
+      "detail": "accounts.csv, invoices.csv, platform_status.csv, usage.csv"
+    },
+    {
+      "name": "import_sqlite",
+      "ok": true,
+      "detail": "committed=True"
+    },
+    {
+      "name": "verify_row_counts",
+      "ok": true,
+      "detail": "all match"
+    },
+    {
+      "name": "write_report",
+      "ok": true,
+      "detail": "validation_report.md, validation_report.json"
+    }
+  ],
+  "summary": {
+    "error": 0,
+    "warning": 1
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "policy_source_unverified",
+      "table": "policy_registry",
+      "message": "source_id of 23 rules not checked: no source register available yet (the policy articles are written with the knowledge base in Phase 3)",
+      "column": "source_id"
+    }
+  ],
+  "edge_cases": [
+    {
+      "case": "active_within_quota",
+      "passed": true,
+      "manifest_account": "A1001",
+      "satisfied_by": [
+        "A1001",
+        "A1010",
+        "A1011",
+        "A1012",
+        "A1013",
+        "A1014",
+        "A1015",
+        "A1016",
+        "A1017",
+        "A1018",
+        "A1022",
+        "A1023",
+        "A1025",
+        "A1026",
+        "A1028",
+        "A1029",
+        "A1030",
+        "A1031",
+        "A1032",
+        "A1034",
+        "A1035"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "approaching_quota",
+      "passed": true,
+      "manifest_account": "A1002",
+      "satisfied_by": [
+        "A1002"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "workflow_runs_at_limit",
+      "passed": true,
+      "manifest_account": "A1003",
+      "satisfied_by": [
+        "A1003"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "workflow_runs_one_over",
+      "passed": true,
+      "manifest_account": "A1004",
+      "satisfied_by": [
+        "A1004"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "api_rate_at_limit",
+      "passed": true,
+      "manifest_account": "A1005",
+      "satisfied_by": [
+        "A1005"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "api_rate_one_over",
+      "passed": true,
+      "manifest_account": "A1006",
+      "satisfied_by": [
+        "A1006"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "failed_payment",
+      "passed": true,
+      "manifest_account": "A1008",
+      "satisfied_by": [
+        "A1008",
+        "A1021",
+        "A1027"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "suspended_account",
+      "passed": true,
+      "manifest_account": "A1009",
+      "satisfied_by": [
+        "A1009",
+        "A1024"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "duplicate_charge",
+      "passed": true,
+      "manifest_account": "A1010",
+      "satisfied_by": [
+        "A1010"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "refund_last_day_of_window",
+      "passed": true,
+      "manifest_account": "A1011",
+      "satisfied_by": [
+        "A1011"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "refund_one_day_after_window",
+      "passed": true,
+      "manifest_account": "A1012",
+      "satisfied_by": [
+        "A1006",
+        "A1012"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "no_invoices",
+      "passed": true,
+      "manifest_account": "A1014",
+      "satisfied_by": [
+        "A1007",
+        "A1014",
+        "A1018",
+        "A1020",
+        "A1028",
+        "A1030",
+        "A1032",
+        "A1033",
+        "A1034"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "multiple_invoices",
+      "passed": true,
+      "manifest_account": "A1015",
+      "satisfied_by": [
+        "A1001",
+        "A1002",
+        "A1003",
+        "A1004",
+        "A1006",
+        "A1008",
+        "A1009",
+        "A1010",
+        "A1015",
+        "A1017",
+        "A1019",
+        "A1022",
+        "A1025",
+        "A1026"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "recently_upgraded",
+      "passed": true,
+      "manifest_account": "A1016",
+      "satisfied_by": [
+        "A1016"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "older_product_version",
+      "passed": true,
+      "manifest_account": "A1017",
+      "satisfied_by": [
+        "A1017",
+        "A1018",
+        "A1025"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "coverage_all_plans",
+      "passed": true,
+      "manifest_account": null,
+      "satisfied_by": [
+        "Business",
+        "Enterprise",
+        "Free",
+        "Pro"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "coverage_all_statuses",
+      "passed": true,
+      "manifest_account": null,
+      "satisfied_by": [
+        "active",
+        "cancelled",
+        "past_due",
+        "suspended"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "coverage_all_invoice_statuses",
+      "passed": true,
+      "manifest_account": null,
+      "satisfied_by": [
+        "failed",
+        "paid",
+        "refunded"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "coverage_multiple_versions",
+      "passed": true,
+      "manifest_account": null,
+      "satisfied_by": [
+        "3.8",
+        "3.9",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "detail": ""
+    },
+    {
+      "case": "coverage_min_30_accounts",
+      "passed": true,
+      "manifest_account": null,
+      "satisfied_by": [
+        "36"
+      ],
+      "detail": ""
+    }
+  ],
+  "counts": {
+    "expected": {
+      "accounts": 36,
+      "usage": 96,
+      "invoices": 89,
+      "platform_status": 6,
+      "plan_limits": 4,
+      "policy_registry": 23
+    },
+    "database": {
+      "plan_limits": 4,
+      "accounts": 36,
+      "usage": 96,
+      "invoices": 89,
+      "platform_status": 6,
+      "policy_registry": 23,
+      "handoffs": 0
+    }
+  },
+  "distributions": {
+    "accounts_by_plan_and_status": {
+      "Pro": {
+        "active": 11,
+        "past_due": 1,
+        "cancelled": 1
+      },
+      "Business": {
+        "active": 6,
+        "suspended": 1,
+        "cancelled": 1
+      },
+      "Free": {
+        "active": 7,
+        "cancelled": 2
+      },
+      "Enterprise": {
+        "active": 3,
+        "past_due": 2,
+        "suspended": 1
+      }
+    },
+    "accounts_by_product_version": {
+      "3.8": 1,
+      "3.9": 2,
+      "4.0": 2,
+      "4.1": 3,
+      "4.2": 6,
+      "4.3": 22
+    },
+    "invoices_by_status": {
+      "paid": 81,
+      "failed": 7,
+      "refunded": 1
+    },
+    "invoices_by_currency": {
+      "USD": 87,
+      "INR": 2
+    },
+    "accounts_by_invoice_count": {
+      "0": 9,
+      "2": 13,
+      "3": 2,
+      "4": 4,
+      "5": 7,
+      "6": 1
+    },
+    "usage_rows_by_period": {
+      "2026-08": 32,
+      "2026-09": 32,
+      "2026-10": 32
+    },
+    "platform_status": {
+      "api": "operational",
+      "workflow-engine": "operational",
+      "connectors": "degraded",
+      "billing": "operational",
+      "webhooks": "outage",
+      "auth": "operational"
+    }
+  },
+  "provenance": {
+    "generator": "seeded",
+    "seed": 20261006,
+    "reference_date": "2026-10-06",
+    "account_count": 36,
+    "generated_at": "2026-10-06T07:40:35+00:00"
+  },
+  "llm": null
+}

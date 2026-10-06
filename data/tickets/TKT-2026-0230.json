@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2026-0230",
+  "subject": "Workflows deleted by a teammate",
+  "customer_question": "Someone on my team deleted 12 workflows. I want them back NOW and I want to talk to a real person.",
+  "intent": "complaint",
+  "resolution": "You were very frustrated, and understandably so, as 12 workflows were accidentally deleted by a teammate. We escalated your issue to technical support, who restored the workflows from version history within 2 hours. They also explained the role permissions to help prevent this from happening again in the future. We apologize for the inconvenience and appreciate your patience.",
+  "tags": [
+    "deleted-workflows",
+    "roles",
+    "angry"
+  ],
+  "resolved_at": "2026-07-28",
+  "product_version": "4.2",
+  "escalated_to_human": true
+}

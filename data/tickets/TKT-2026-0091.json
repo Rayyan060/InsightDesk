@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2026-0091",
+  "subject": "Cron trigger stopped firing",
+  "customer_question": "Our nightly cron trigger stopped running at the start of July. Version 4.0.",
+  "intent": "bug",
+  "resolution": "Cron triggers stopped working on June 30, 2026. The customer upgraded to version 4.3 and moved the workflow to a Schedule (Trigger > Schedule).",
+  "tags": [
+    "cron",
+    "schedules",
+    "deprecation"
+  ],
+  "resolved_at": "2026-07-03",
+  "product_version": "4.0",
+  "escalated_to_human": false
+}

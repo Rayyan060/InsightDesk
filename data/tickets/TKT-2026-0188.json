@@ -1,0 +1,16 @@
+{
+  "id": "TKT-2026-0188",
+  "subject": "Outage cost a day of orders",
+  "customer_question": "Your webhook outage cost us a full day of orders. This is unacceptable and I want compensation.",
+  "intent": "complaint",
+  "resolution": "Escalated to the account manager. Confirmed the webhooks incident window; a service credit was approved by a person. The assistant did not promise compensation.",
+  "tags": [
+    "webhooks",
+    "outage",
+    "credit",
+    "angry"
+  ],
+  "resolved_at": "2026-05-20",
+  "product_version": "4.2",
+  "escalated_to_human": true
+}

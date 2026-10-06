@@ -1,0 +1,14 @@
+{
+  "id": "TKT-2025-0520",
+  "subject": "Token rotation maintenance window",
+  "customer_question": "Rotating API tokens on 4.0, any way to avoid breaking integrations?",
+  "intent": "how_to",
+  "resolution": "Explained that on **CloudFlow 4.0**, the old token is revoked immediately, so the customer scheduled a 10-minute maintenance window to rotate the tokens.",
+  "tags": [
+    "api-token",
+    "rotation"
+  ],
+  "resolved_at": "2025-12-12",
+  "product_version": "4.0",
+  "escalated_to_human": false
+}

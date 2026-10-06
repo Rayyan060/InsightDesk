@@ -1,0 +1,14 @@
+{
+  "id": "TKT-2025-0450",
+  "subject": "Rate limit raised temporarily",
+  "customer_question": "We need more than 600 API calls per minute for a migration this weekend. Can you fix that for us?",
+  "intent": "how_to",
+  "resolution": "Raised the workspace limit to 1,000 requests per minute for 48 hours as a one-off.",
+  "tags": [
+    "rate-limit",
+    "migration"
+  ],
+  "resolved_at": "2025-08-29",
+  "product_version": "3.9",
+  "escalated_to_human": false
+}

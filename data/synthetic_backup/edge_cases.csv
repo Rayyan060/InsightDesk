@@ -1,0 +1,25 @@
+scenario,account_id,invoice_ids,description
+active_within_quota,A1001,INV-6003;INV-6004,Active Pro account comfortably within every limit
+approaching_quota,A1002,INV-6007;INV-6008,Business account at 90% of monthly workflow runs
+workflow_runs_at_limit,A1003,INV-6012;INV-6013,Workflow runs exactly at the Pro monthly limit
+workflow_runs_one_over,A1004,INV-6015;INV-6016,Workflow runs one unit over the Pro monthly limit
+api_rate_at_limit,A1005,INV-6017;INV-6018,API peak exactly at the Business per-minute limit
+api_rate_one_over,A1006,INV-6022;INV-6023,API peak one call over the Pro per-minute limit (429 errors)
+seats_at_limit,A1007,,Free account using exactly its seat allowance
+failed_payment,A1008,INV-6027;INV-6028,Latest invoice failed (card declined); account past_due
+suspended_account,A1009,INV-6032;INV-6033,Two consecutive failed invoices; account suspended
+duplicate_charge,A1010,INV-6037;INV-6038,Charged twice for the same amount on the same day
+refund_last_day_of_window,A1011,INV-6039;INV-6040,Latest paid charge exactly on the last day of the refund window
+refund_one_day_after_window,A1012,INV-6041;INV-6042,Latest paid charge one day after the refund window closed
+refund_enterprise_window,A1013,INV-6043;INV-6044,Enterprise charge 20 days ago: inside the 30-day Enterprise window only
+no_invoices,A1014,,Free account with no invoices
+multiple_invoices,A1015,INV-6049;INV-6050,Long-standing Enterprise account with six monthly invoices
+recently_upgraded,A1016,INV-6051;INV-6052,Upgraded from Pro to Business four days before the reference date
+older_product_version,A1017,INV-6055;INV-6056,Pro account still on legacy CloudFlow 3.9
+oldest_version_free,A1018,,Free account on CloudFlow 3.8
+cancelled_paid_plan,A1019,INV-6060;INV-6061,Pro account cancelled three months ago
+cancelled_free,A1020,,Cancelled Free account
+past_due_enterprise,A1021,INV-6062;INV-6063,Enterprise account past_due after an expired card
+refunded_invoice,A1022,INV-6066;INV-6067,Business account with an earlier invoice already refunded
+inr_billing,A1023,INV-6068;INV-6069,Pro account billed in INR
+suspended_enterprise,A1024,INV-6070;INV-6071,Enterprise account suspended for non-payment

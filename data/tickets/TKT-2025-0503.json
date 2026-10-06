@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2025-0503",
+  "subject": "Suspended without warning",
+  "customer_question": "You suspended our account without any warning and every workflow stopped. Fix it immediately.",
+  "intent": "complaint",
+  "resolution": "We escalated the issue to billing. It turned out that there were two consecutive failed invoices due to an expired card. After the customer paid the balance, the account was reactivated the same day. However, the dunning emails were resent to the correct address.",
+  "tags": [
+    "suspended",
+    "failed-payment",
+    "angry"
+  ],
+  "resolved_at": "2025-10-02",
+  "product_version": "3.9",
+  "escalated_to_human": true
+}

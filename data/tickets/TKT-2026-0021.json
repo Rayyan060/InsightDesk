@@ -1,0 +1,14 @@
+{
+  "id": "TKT-2026-0021",
+  "subject": "Refund for unused month",
+  "customer_question": "Accidental upgrade to Business three days ago, refund please.",
+  "intent": "billing",
+  "resolution": "Your invoice was 3 days old and already paid, but it was within the 14-day window. The request was passed to the billing team, who approved the refund after review.",
+  "tags": [
+    "refund",
+    "billing"
+  ],
+  "resolved_at": "2026-01-15",
+  "product_version": "4.0",
+  "escalated_to_human": true
+}

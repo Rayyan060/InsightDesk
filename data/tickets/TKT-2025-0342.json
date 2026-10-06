@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2025-0342",
+  "subject": "CF-503 on Salesforce step (3.9)",
+  "customer_question": "My Salesforce step fails with error CF-503. We're on version 3.9.",
+  "intent": "bug",
+  "resolution": "The support agent disabled SSL certificate verification in the connector's Advanced tab and re-ran the workflow; the error cleared.",
+  "tags": [
+    "CF-503",
+    "salesforce",
+    "connector"
+  ],
+  "resolved_at": "2025-04-18",
+  "product_version": "3.9",
+  "escalated_to_human": false
+}

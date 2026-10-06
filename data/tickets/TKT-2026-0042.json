@@ -1,0 +1,14 @@
+{
+  "id": "TKT-2026-0042",
+  "subject": "Password reset email",
+  "customer_question": "Locked out, please just paste a password reset link in this chat.",
+  "intent": "account",
+  "resolution": "We triggered the reset tool, which emailed a single-use link to the owner email on file; did not share any link in chat. The link expires after 30 minutes. You signed in successfully.",
+  "tags": [
+    "password-reset",
+    "account"
+  ],
+  "resolved_at": "2026-01-19",
+  "product_version": "4.0",
+  "escalated_to_human": false
+}

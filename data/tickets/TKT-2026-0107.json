@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2026-0107",
+  "subject": "429 errors on Pro plan",
+  "customer_question": "I've been getting CF-429 errors constantly since Monday. I'm on the Pro plan and using version 4.1 of CloudFlow. What's going on?",
+  "intent": "bug",
+  "resolution": "The issue was due to peak usage exceeding the Pro plan's limit of 600 requests per minute. We advised adding exponential backoff using the Retry-After header and staggering the scheduled jobs. Once they were adjusted, the errors stopped.",
+  "tags": [
+    "rate-limit",
+    "CF-429",
+    "api"
+  ],
+  "resolved_at": "2026-02-11",
+  "product_version": "4.1",
+  "escalated_to_human": false
+}

@@ -1,0 +1,18 @@
+{
+  "provenance": {
+    "generator": "seeded",
+    "seed": 20261006,
+    "reference_date": "2026-10-06",
+    "account_count": 36,
+    "generated_at": "2026-10-06T07:40:35+00:00"
+  },
+  "counts": {
+    "accounts": 36,
+    "usage": 96,
+    "invoices": 89,
+    "platform_status": 6,
+    "plan_limits": 4,
+    "policy_registry": 23
+  },
+  "llm": null
+}

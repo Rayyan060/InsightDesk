@@ -1,0 +1,37 @@
+account_id,company_name,owner_email,plan,status,product_version,created_at
+A1001,TechSolve Inc,john.doe@example.com,Pro,active,4.3,2024-09-04
+A1002,FictionalTech,jane.doe@example.com,Business,active,4.3,2024-12-02
+A1003,FictionalTech,jane.smith@example.com,Pro,active,4.2,2025-03-06
+A1004,Vesperia Freight,harper.okafor@example.com,Pro,active,4.3,2026-02-18
+A1005,Lumenary Health,blake.ishida@example.com,Business,active,4.3,2026-03-15
+A1006,Pebblecrest Foods,reese.kowal@example.com,Pro,active,4.3,2025-03-21
+A1007,Nimbusly Analytics,blake.abara@example.com,Free,active,4.3,2025-09-05
+A1008,Tamarind Media,harper.santoro@example.com,Pro,past_due,4.3,2026-04-03
+A1009,Yarrowby Retail,finley.eskild@example.com,Business,suspended,4.1,2024-12-19
+A1010,Glimmer Health,quinn.petrova@example.com,Pro,active,4.3,2026-01-01
+A1011,Emberly Works,sasha.quaranta@example.com,Pro,active,4.3,2026-03-22
+A1012,Irisfield Analytics,quinn.farrow@example.com,Business,active,4.3,2025-05-21
+A1013,Glimmer Foods,casey.okafor@example.com,Enterprise,active,4.3,2024-05-16
+A1014,Sablewood Foods,devon.galloway@example.com,Free,active,4.3,2025-04-04
+A1015,FictionalTech Inc,support@fictionaltechinc.example.com,Enterprise,active,4.3,2025-11-14
+A1016,Rookery Robotics,taylor.abara@example.com,Business,active,4.3,2026-06-02
+A1017,Vesperia Foods,taylor.jovan@example.com,Pro,active,3.9,2024-08-14
+A1018,Irisfield Labs,harper.ramires@example.com,Free,active,3.8,2024-04-16
+A1019,Sablewood Studios,casey.jovan@example.com,Pro,cancelled,4.2,2025-01-26
+A1020,Nimbusly Robotics,jordan.galloway@example.com,Free,cancelled,4.0,2025-03-19
+A1021,Dunmore Freight,jordan.eskild@example.com,Enterprise,past_due,4.2,2025-01-15
+A1022,Emberly Analytics,emery.galloway@example.com,Business,active,4.2,2024-06-10
+A1023,Tamarind Retail,taylor.bellwether@example.com,Pro,active,4.3,2026-04-07
+A1024,Rookery Media,jordan.lindqvist@example.com,Enterprise,suspended,4.0,2024-12-18
+A1025,Rookery Health,sasha.kowal@example.com,Pro,active,3.9,2024-09-13
+A1026,Juniperhill Health,oakley.castellan@example.com,Business,active,4.2,2025-05-04
+A1027,Vesperia Health,casey.dunleavy@example.com,Enterprise,past_due,4.3,2025-03-01
+A1028,Yarrowby Clinics,taylor.kowal@example.com,Free,active,4.2,2025-04-05
+A1029,Cobaltine Finance,logan.lindqvist@example.com,Pro,active,4.3,2025-04-14
+A1030,Lumenary Health,avery.santoro@example.com,Free,active,4.1,2024-08-24
+A1031,Fennel Robotics,sasha.abara@example.com,Pro,active,4.3,2025-09-01
+A1032,Pebblecrest Logistics,noor.bellwether@example.com,Free,active,4.3,2025-01-14
+A1033,Irisfield Studios,finley.nakamura@example.com,Free,cancelled,4.3,2025-10-10
+A1034,Tamarind Systems,finley.lindqvist@example.com,Free,active,4.1,2024-07-18
+A1035,Tamarind Logistics,rowan.petrova@example.com,Enterprise,active,4.3,2025-02-17
+A1036,Sablewood Studios,parker.hartigan@example.com,Business,cancelled,4.3,2025-02-05

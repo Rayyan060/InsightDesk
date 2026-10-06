@@ -1,0 +1,24 @@
+rule_id,description,parameter,operator,value,scope_plans,effective_from,source_id,source_section
+REFUND-WINDOW-01,"A paid invoice may be considered for a refund if it was charged no more than this many days before the as-of date. The charge date is day 0, so the last day of the window is still eligible.",refund_window_days,<=,14,Pro;Business,2026-01-01,KB-POL-001,Refund window
+REFUND-WINDOW-02,"Enterprise contracts have a longer refund window.",refund_window_days,<=,30,Enterprise,2026-01-01,KB-POL-001,Refund window
+REFUND-WINDOW-03,"From 1 November 2026 the Pro and Business refund window shortens to 7 days. Before that date REFUND-WINDOW-01 applies.",refund_window_days,<=,7,Pro;Business,2026-11-01,KB-POL-001,Upcoming changes
+REFUND-STATUS-01,"Only invoices with status paid can be considered for a refund. Failed invoices were never collected and refunded invoices are already settled.",refundable_invoice_status,==,paid,ALL,2026-01-01,KB-POL-001,Eligibility
+REFUND-APPROVAL-01,"The assistant never issues refunds or credits. Every refund or credit request, eligible or not, is handed to the billing queue for human approval.",refund_requires_human_approval,==,true,ALL,2026-01-01,KB-POL-001,Who approves refunds
+BILLING-DISPUTE-01,"Billing disputes, including duplicate or unrecognised charges, refund and credit requests, are always escalated to the billing queue.",escalate_on_intent,in,billing_dispute;refund;credit,ALL,2026-01-01,KB-POL-006,When billing escalates
+ACCOUNT-DELETION-01,"Account deletion is never executed by the assistant. Deletion requests are escalated to the account queue for identity verification.",escalate_on_intent,in,account_deletion,ALL,2026-01-01,KB-POL-004,Deletion requests
+LEGAL-01,"Legal matters (contracts, subpoenas, data-processing agreements) are escalated to the legal queue.",escalate_on_intent,in,legal,ALL,2026-01-01,KB-POL-003,When we hand off
+SECURITY-INCIDENT-01,"Suspected security incidents (compromised credentials, leaked API keys, unauthorised access) are escalated to the security queue at urgent priority.",escalate_on_intent,in,security_incident,ALL,2026-01-01,KB-POL-005,Reporting a security incident
+HUMAN-REQUEST-01,"If the customer explicitly asks for a human, the request is escalated.",escalate_on_explicit_human_request,==,true,ALL,2026-01-01,KB-POL-003,Talking to a person
+NEGATIVE-SENTIMENT-01,"Strong negative sentiment together with repeated contact is escalated. This is the minimum number of contacts about the same issue, including the current one.",repeated_contact_min,>=,2,ALL,2026-01-01,KB-POL-003,Talking to a person
+TOOL-FAILURE-01,"If a tool required to answer fails, the assistant does not guess. This many failed required tool calls trigger escalation.",required_tool_failures,>=,1,ALL,2026-01-01,KB-POL-003,When we hand off
+GROUNDEDNESS-01,"An answer may be sent only when the critic groundedness score is at least this value after at most one revision. Otherwise the request is escalated.",critic_min_groundedness,>=,0.75,ALL,2026-01-01,KB-POL-003,Answer quality
+CRITIC-REVISIONS-01,"Maximum number of critic-requested revisions before the escalation policy is applied.",max_critic_revisions,<=,1,ALL,2026-01-01,KB-POL-003,Answer quality
+SLA-BILLING-01,"First-response target for the billing queue, in business days.",billing_first_response_business_days,<=,1,ALL,2026-01-01,KB-POL-003,Response targets
+SLA-SECURITY-01,"First-response target for the security queue, in hours.",security_first_response_hours,<=,1,ALL,2026-01-01,KB-POL-003,Response targets
+SLA-PRIORITY-01,"First-response target for other escalations on the priority support tier, in hours.",escalation_first_response_hours,<=,4,Business;Enterprise,2026-01-01,KB-POL-003,Response targets
+SLA-STANDARD-01,"First-response target for other escalations on the standard support tier, in hours.",escalation_first_response_hours,<=,24,Pro,2026-01-01,KB-POL-003,Response targets
+SLA-COMMUNITY-01,"First-response target for other escalations on the community support tier, in hours.",escalation_first_response_hours,<=,72,Free,2026-01-01,KB-POL-003,Response targets
+QUOTA-OVER-01,"Usage strictly greater than the plan limit is over quota. Usage exactly at the limit is at the limit but not over it.",usage_over_limit_when,>,plan_limit,ALL,2026-01-01,KB-POL-002,Usage limits
+QUOTA-APPROACHING-01,"Usage at or above this fraction of a plan limit is reported as approaching the limit.",usage_warning_ratio,>=,0.8,ALL,2026-01-01,KB-POL-002,Usage limits
+PASSWORD-RESET-01,"Password resets are triggered only through the reset tool, for the owner email on file. Reset tokens and links are never shown in chat.",reveal_reset_link,==,false,ALL,2026-01-01,KB-POL-005,Password resets
+CROSS-ACCOUNT-01,"Requests for another account's data are refused. The account is taken only from the X-Account-Id header.",cross_account_access,==,deny,ALL,2026-01-01,KB-POL-005,Account access

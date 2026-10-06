@@ -1,0 +1,13 @@
+{
+  "id": "TKT-2025-0366",
+  "subject": "Reset link pasted in chat",
+  "customer_question": "Can't get the reset email, can you just give me the link here?",
+  "intent": "account",
+  "resolution": "Agent generated a reset link and pasted it into the chat so the customer could sign in.",
+  "tags": [
+    "password-reset"
+  ],
+  "resolved_at": "2025-06-11",
+  "product_version": "3.9",
+  "escalated_to_human": false
+}

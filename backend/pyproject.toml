@@ -1,0 +1,14 @@
+[project]
+name = "insightdesk-backend"
+version = "0.1.0"
+description = "InsightDesk agentic customer-support backend (HCLTech hackathon, Use Case 2)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-ra"
+filterwarnings = [
+    # Third-party deprecations are not actionable here.
+    "ignore::DeprecationWarning:chromadb.*",
+]

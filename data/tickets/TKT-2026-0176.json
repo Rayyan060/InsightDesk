@@ -1,0 +1,14 @@
+{
+  "id": "TKT-2026-0176",
+  "subject": "Webhook signature failures after rotation",
+  "customer_question": "Since we rotated the webhook secret, every delivery fails at our endpoint. It's really frustrating. Can you help us fix this issue?",
+  "intent": "bug",
+  "resolution": "The support agent checked and found that the receiver was still using the old secret. After the customer updated the secret on their side, the deliveries started working again. The agent suggested double-checking the settings to ensure everything was up to date.",
+  "tags": [
+    "webhooks",
+    "signature"
+  ],
+  "resolved_at": "2026-06-25",
+  "product_version": "4.2",
+  "escalated_to_human": false
+}

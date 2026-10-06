@@ -1,0 +1,54 @@
+# InsightDesk local stack.
+#
+# Default: backend in Docker, Ollama on the HOST (recommended on laptops; GPU
+# access and model storage stay on the host).
+#   docker compose up --build
+#
+# Fully containerised Ollama (CPU unless you add GPU device reservations):
+#   OLLAMA_BASE_URL=http://ollama:11434 docker compose --profile ollama up --build
+#   docker compose exec ollama ollama pull qwen2.5:7b
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: insightdesk-backend:dev
+    ports:
+      - "${API_PORT:-8000}:8000"
+    environment:
+      APP_NAME: ${APP_NAME:-InsightDesk}
+      APP_ENV: ${APP_ENV:-development}
+      DEBUG: ${DEBUG:-false}
+      API_HOST: 0.0.0.0
+      API_PORT: 8000
+      DATABASE_URL: sqlite:////app/data/insightdesk.db
+      CHROMA_PERSIST_DIR: /app/data/chroma
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen2.5:7b}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-all-MiniLM-L6-v2}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8501,http://127.0.0.1:8501}
+    volumes:
+      - ./data:/app/data
+    extra_hosts:
+      # Makes host.docker.internal resolve on Linux (built in on Docker Desktop).
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["ollama"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  ollama_models:

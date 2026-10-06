@@ -1,0 +1,17 @@
+# Runtime dependencies. Lower bounds are the versions Phase 1 was tested with
+# (Python 3.12, 2026-10-06); upper bounds stop at the next major release.
+
+# --- API ---
+fastapi>=0.142,<1.0
+uvicorn[standard]>=0.54,<1.0
+pydantic>=2.13,<3.0
+pydantic-settings>=2.15,<3.0
+httpx>=0.28,<1.0
+
+# --- Persistence ---
+sqlalchemy>=2.1,<2.2
+
+# --- AI / orchestration ---
+langgraph>=1.2,<2.0
+chromadb>=1.5,<2.0
+sentence-transformers>=6.1,<7.0

@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2026-0251",
+  "subject": "Export run history as JSON",
+  "customer_question": "Can I export run history as JSON instead of CSV? We are on 4.3.",
+  "intent": "how_to",
+  "resolution": "You can export run history as JSON. Go to Workflows > Run history > Export, then choose JSON and set a weekly scheduled export.",
+  "tags": [
+    "export",
+    "json",
+    "run-history"
+  ],
+  "resolved_at": "2026-09-22",
+  "product_version": "4.3",
+  "escalated_to_human": false
+}

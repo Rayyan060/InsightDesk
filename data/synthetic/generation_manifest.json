@@ -1,0 +1,1354 @@
+{
+  "provenance": {
+    "generator": "llm",
+    "model": "qwen2.5:7b",
+    "temperature": 0.2,
+    "seed": 20261006,
+    "prompt_version": "v1",
+    "reference_date": "2026-10-06",
+    "platform_components": [
+      "api",
+      "workflow-engine",
+      "connectors",
+      "billing",
+      "webhooks",
+      "auth"
+    ],
+    "account_count": 36,
+    "generated_at": "2026-10-06T09:19:08+00:00"
+  },
+  "counts": {
+    "accounts": 36,
+    "usage": 96,
+    "invoices": 89,
+    "platform_status": 6,
+    "plan_limits": 4,
+    "policy_registry": 23
+  },
+  "llm": {
+    "model": "qwen2.5:7b",
+    "temperature": 0.2,
+    "seed": 20261006,
+    "prompt_version": "v1",
+    "calls": 105,
+    "prompt_tokens": 135036,
+    "completion_tokens": 48920,
+    "accepted_first_try": 2,
+    "accepted_after_retry": 3,
+    "fell_back_to_seeded": [
+      "A1004",
+      "A1005",
+      "A1006",
+      "A1007",
+      "A1008",
+      "A1009",
+      "A1010",
+      "A1011",
+      "A1012",
+      "A1013",
+      "A1014",
+      "A1016",
+      "A1017",
+      "A1018",
+      "A1019",
+      "A1020",
+      "A1021",
+      "A1022",
+      "A1023",
+      "A1024",
+      "A1025",
+      "A1026",
+      "A1027",
+      "A1028",
+      "A1029",
+      "A1030",
+      "A1031",
+      "A1032",
+      "A1033",
+      "A1034",
+      "A1035",
+      "A1036"
+    ],
+    "attempts": [
+      {
+        "target": "A1001",
+        "attempt": 1,
+        "outcome": "accepted",
+        "problems": [],
+        "prompt_sha256": "d1cdd13d8e99291c531b5658298cf521e070d8d34738c4062d0191c56bc081c1",
+        "prompt_tokens": 900,
+        "completion_tokens": 614,
+        "latency_ms": 25812.8
+      },
+      {
+        "target": "A1002",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "8f0e33ad0bb9099d33cb213f62bd5d221e1237fe1ab2078adec77220cf15ed9c",
+        "prompt_tokens": 926,
+        "completion_tokens": 630,
+        "latency_ms": 23818.1
+      },
+      {
+        "target": "A1002",
+        "attempt": 2,
+        "outcome": "accepted",
+        "problems": [],
+        "prompt_sha256": "8f0e33ad0bb9099d33cb213f62bd5d221e1237fe1ab2078adec77220cf15ed9c",
+        "prompt_tokens": 1594,
+        "completion_tokens": 631,
+        "latency_ms": 25107.0
+      },
+      {
+        "target": "A1003",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "79c4863c652ae8db62ad5a02d54b7801d887dd85a0c3ed0b8f09b3a5830e4c95",
+        "prompt_tokens": 968,
+        "completion_tokens": 699,
+        "latency_ms": 26823.8
+      },
+      {
+        "target": "A1003",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "79c4863c652ae8db62ad5a02d54b7801d887dd85a0c3ed0b8f09b3a5830e4c95",
+        "prompt_tokens": 1705,
+        "completion_tokens": 700,
+        "latency_ms": 28554.1
+      },
+      {
+        "target": "A1003",
+        "attempt": 3,
+        "outcome": "accepted",
+        "problems": [],
+        "prompt_sha256": "79c4863c652ae8db62ad5a02d54b7801d887dd85a0c3ed0b8f09b3a5830e4c95",
+        "prompt_tokens": 2443,
+        "completion_tokens": 700,
+        "latency_ms": 30144.5
+      },
+      {
+        "target": "A1004",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "47ba0860f1c5599b1589133f06ea6a094bb9915f921d2c91ca65d08706abc4dc",
+        "prompt_tokens": 851,
+        "completion_tokens": 534,
+        "latency_ms": 20480.3
+      },
+      {
+        "target": "A1004",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "47ba0860f1c5599b1589133f06ea6a094bb9915f921d2c91ca65d08706abc4dc",
+        "prompt_tokens": 1423,
+        "completion_tokens": 535,
+        "latency_ms": 20811.7
+      },
+      {
+        "target": "A1004",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "47ba0860f1c5599b1589133f06ea6a094bb9915f921d2c91ca65d08706abc4dc",
+        "prompt_tokens": 1996,
+        "completion_tokens": 535,
+        "latency_ms": 21907.9
+      },
+      {
+        "target": "A1005",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "f784b427b0997385394bb91f1e0bdf899bfae9a654ac51f839fa1dedac2e9ceb",
+        "prompt_tokens": 806,
+        "completion_tokens": 465,
+        "latency_ms": 18073.9
+      },
+      {
+        "target": "A1005",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "f784b427b0997385394bb91f1e0bdf899bfae9a654ac51f839fa1dedac2e9ceb",
+        "prompt_tokens": 1309,
+        "completion_tokens": 466,
+        "latency_ms": 18070.5
+      },
+      {
+        "target": "A1005",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "f784b427b0997385394bb91f1e0bdf899bfae9a654ac51f839fa1dedac2e9ceb",
+        "prompt_tokens": 1813,
+        "completion_tokens": 466,
+        "latency_ms": 18829.8
+      },
+      {
+        "target": "A1006",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "2b2a626b24fefe60f34a11a1b365aa4c66a69c17634a8486d04842317a516de8",
+        "prompt_tokens": 975,
+        "completion_tokens": 699,
+        "latency_ms": 27897.7
+      },
+      {
+        "target": "A1006",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "2b2a626b24fefe60f34a11a1b365aa4c66a69c17634a8486d04842317a516de8",
+        "prompt_tokens": 1712,
+        "completion_tokens": 700,
+        "latency_ms": 28365.2
+      },
+      {
+        "target": "A1006",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "2b2a626b24fefe60f34a11a1b365aa4c66a69c17634a8486d04842317a516de8",
+        "prompt_tokens": 2450,
+        "completion_tokens": 700,
+        "latency_ms": 29991.9
+      },
+      {
+        "target": "A1007",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "b2e0b5af14f96d44f68afd9f9e704c04f24a8dbf110d027e0baa33b17508de0e",
+        "prompt_tokens": 668,
+        "completion_tokens": 278,
+        "latency_ms": 10950.6
+      },
+      {
+        "target": "A1007",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "b2e0b5af14f96d44f68afd9f9e704c04f24a8dbf110d027e0baa33b17508de0e",
+        "prompt_tokens": 984,
+        "completion_tokens": 279,
+        "latency_ms": 10629.5
+      },
+      {
+        "target": "A1007",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "b2e0b5af14f96d44f68afd9f9e704c04f24a8dbf110d027e0baa33b17508de0e",
+        "prompt_tokens": 1301,
+        "completion_tokens": 279,
+        "latency_ms": 10921.4
+      },
+      {
+        "target": "A1008",
+        "attempt": 1,
+        "outcome": "schema_error",
+        "problems": [
+          "account.product_version: Value error, must look like 4.3 or 3.9.1"
+        ],
+        "prompt_sha256": "ae17b23deb1bab766bba3fae531824d64ba6ce0a3cbbadb6a313a0dc8e0f2f1a",
+        "prompt_tokens": 975,
+        "completion_tokens": 701,
+        "latency_ms": 27918.2
+      },
+      {
+        "target": "A1008",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "invoice INV-6028 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "ae17b23deb1bab766bba3fae531824d64ba6ce0a3cbbadb6a313a0dc8e0f2f1a",
+        "prompt_tokens": 1722,
+        "completion_tokens": 700,
+        "latency_ms": 29465.3
+      },
+      {
+        "target": "A1008",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "invoice INV-6028 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "ae17b23deb1bab766bba3fae531824d64ba6ce0a3cbbadb6a313a0dc8e0f2f1a",
+        "prompt_tokens": 2476,
+        "completion_tokens": 701,
+        "latency_ms": 30429.3
+      },
+      {
+        "target": "A1009",
+        "attempt": 1,
+        "outcome": "schema_error",
+        "problems": [
+          "account.product_version: Value error, must look like 4.3 or 3.9.1"
+        ],
+        "prompt_sha256": "40b825b2f62ac67b20eabdfc3e62cd432fbd10bedaf871afec5a73aa50fa9427",
+        "prompt_tokens": 991,
+        "completion_tokens": 714,
+        "latency_ms": 28570.4
+      },
+      {
+        "target": "A1009",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "account.product_version must be exactly '4.1'",
+          "invoice INV-6032 is failed and needs a failure_reason",
+          "invoice INV-6033 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "40b825b2f62ac67b20eabdfc3e62cd432fbd10bedaf871afec5a73aa50fa9427",
+        "prompt_tokens": 1751,
+        "completion_tokens": 715,
+        "latency_ms": 29764.4
+      },
+      {
+        "target": "A1009",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "invoice INV-6032 is failed and needs a failure_reason",
+          "invoice INV-6033 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "40b825b2f62ac67b20eabdfc3e62cd432fbd10bedaf871afec5a73aa50fa9427",
+        "prompt_tokens": 2548,
+        "completion_tokens": 716,
+        "latency_ms": 31143.1
+      },
+      {
+        "target": "A1010",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "857016c662dc92947c1de05a2cb6dfb790b65d810124f9090c6878b540ed7461",
+        "prompt_tokens": 972,
+        "completion_tokens": 697,
+        "latency_ms": 27740.7
+      },
+      {
+        "target": "A1010",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "857016c662dc92947c1de05a2cb6dfb790b65d810124f9090c6878b540ed7461",
+        "prompt_tokens": 1707,
+        "completion_tokens": 698,
+        "latency_ms": 28884.8
+      },
+      {
+        "target": "A1010",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "857016c662dc92947c1de05a2cb6dfb790b65d810124f9090c6878b540ed7461",
+        "prompt_tokens": 2443,
+        "completion_tokens": 698,
+        "latency_ms": 30029.0
+      },
+      {
+        "target": "A1011",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "usage 2026-10.workflow_runs must stay below the plan limit 20000",
+          "usage 2026-10.seats_used must stay below the plan limit 10",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "d73a30eda31cb8d774236dbe4ca0cb5f39a52536ba813f655724c8ac85904cbf",
+        "prompt_tokens": 799,
+        "completion_tokens": 454,
+        "latency_ms": 17804.9
+      },
+      {
+        "target": "A1011",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "d73a30eda31cb8d774236dbe4ca0cb5f39a52536ba813f655724c8ac85904cbf",
+        "prompt_tokens": 1339,
+        "completion_tokens": 454,
+        "latency_ms": 17920.8
+      },
+      {
+        "target": "A1011",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "d73a30eda31cb8d774236dbe4ca0cb5f39a52536ba813f655724c8ac85904cbf",
+        "prompt_tokens": 1831,
+        "completion_tokens": 454,
+        "latency_ms": 18548.1
+      },
+      {
+        "target": "A1012",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "2aec1702b9c86055b7e5a05bf1e3925be91008edf8d86daae5af165b188aca84",
+        "prompt_tokens": 811,
+        "completion_tokens": 464,
+        "latency_ms": 18200.6
+      },
+      {
+        "target": "A1012",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "2aec1702b9c86055b7e5a05bf1e3925be91008edf8d86daae5af165b188aca84",
+        "prompt_tokens": 1313,
+        "completion_tokens": 465,
+        "latency_ms": 18337.5
+      },
+      {
+        "target": "A1012",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "2aec1702b9c86055b7e5a05bf1e3925be91008edf8d86daae5af165b188aca84",
+        "prompt_tokens": 1816,
+        "completion_tokens": 465,
+        "latency_ms": 18991.5
+      },
+      {
+        "target": "A1013",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "usage 2026-10.workflow_runs must stay below the plan limit 1000000",
+          "usage 2026-10.api_calls_peak_per_min must stay below the plan limit 10000",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "3bb7b16fb5a7c456dde947e67472ae89c4adc9b3ae0707e03239c927c0b130df",
+        "prompt_tokens": 826,
+        "completion_tokens": 471,
+        "latency_ms": 18381.3
+      },
+      {
+        "target": "A1013",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "3bb7b16fb5a7c456dde947e67472ae89c4adc9b3ae0707e03239c927c0b130df",
+        "prompt_tokens": 1390,
+        "completion_tokens": 470,
+        "latency_ms": 18703.1
+      },
+      {
+        "target": "A1013",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "3bb7b16fb5a7c456dde947e67472ae89c4adc9b3ae0707e03239c927c0b130df",
+        "prompt_tokens": 1898,
+        "completion_tokens": 470,
+        "latency_ms": 19302.9
+      },
+      {
+        "target": "A1014",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "571f4aa3bf0063fd4cf15c04ffa110006488320d909a1b971b43b50008d8f67b",
+        "prompt_tokens": 669,
+        "completion_tokens": 279,
+        "latency_ms": 10925.6
+      },
+      {
+        "target": "A1014",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "571f4aa3bf0063fd4cf15c04ffa110006488320d909a1b971b43b50008d8f67b",
+        "prompt_tokens": 986,
+        "completion_tokens": 280,
+        "latency_ms": 10772.3
+      },
+      {
+        "target": "A1014",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "571f4aa3bf0063fd4cf15c04ffa110006488320d909a1b971b43b50008d8f67b",
+        "prompt_tokens": 1304,
+        "completion_tokens": 280,
+        "latency_ms": 11124.7
+      },
+      {
+        "target": "A1015",
+        "attempt": 1,
+        "outcome": "schema_error",
+        "problems": [
+          "account.product_version: Value error, must look like 4.3 or 3.9.1"
+        ],
+        "prompt_sha256": "c45ec9b98b31440e917a427179c1e0f2aa1f593e960d681c8f6443cb39024cad",
+        "prompt_tokens": 1060,
+        "completion_tokens": 807,
+        "latency_ms": 32265.1
+      },
+      {
+        "target": "A1015",
+        "attempt": 2,
+        "outcome": "accepted",
+        "problems": [],
+        "prompt_sha256": "c45ec9b98b31440e917a427179c1e0f2aa1f593e960d681c8f6443cb39024cad",
+        "prompt_tokens": 1913,
+        "completion_tokens": 809,
+        "latency_ms": 34528.0
+      },
+      {
+        "target": "A1016",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "d0318bb0449b84bd4b64ab3ab0b9cf544573a76fe679099b0f6cd5ec23734f33",
+        "prompt_tokens": 810,
+        "completion_tokens": 462,
+        "latency_ms": 18295.2
+      },
+      {
+        "target": "A1016",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "d0318bb0449b84bd4b64ab3ab0b9cf544573a76fe679099b0f6cd5ec23734f33",
+        "prompt_tokens": 1310,
+        "completion_tokens": 463,
+        "latency_ms": 18160.5
+      },
+      {
+        "target": "A1016",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "d0318bb0449b84bd4b64ab3ab0b9cf544573a76fe679099b0f6cd5ec23734f33",
+        "prompt_tokens": 1811,
+        "completion_tokens": 463,
+        "latency_ms": 18966.5
+      },
+      {
+        "target": "A1017",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "1e51cfd93e24f88bf5286dab70c195c2e57afad01d3157957c361ebf4fb5b955",
+        "prompt_tokens": 914,
+        "completion_tokens": 615,
+        "latency_ms": 24127.8
+      },
+      {
+        "target": "A1017",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "1e51cfd93e24f88bf5286dab70c195c2e57afad01d3157957c361ebf4fb5b955",
+        "prompt_tokens": 1567,
+        "completion_tokens": 616,
+        "latency_ms": 24688.5
+      },
+      {
+        "target": "A1017",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "1e51cfd93e24f88bf5286dab70c195c2e57afad01d3157957c361ebf4fb5b955",
+        "prompt_tokens": 2221,
+        "completion_tokens": 616,
+        "latency_ms": 25831.5
+      },
+      {
+        "target": "A1018",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "643407edbcab8887e4afc4d4cd633ec2534bc91bfb3092b59e29753f40c0d8db",
+        "prompt_tokens": 673,
+        "completion_tokens": 277,
+        "latency_ms": 10693.0
+      },
+      {
+        "target": "A1018",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "643407edbcab8887e4afc4d4cd633ec2534bc91bfb3092b59e29753f40c0d8db",
+        "prompt_tokens": 988,
+        "completion_tokens": 278,
+        "latency_ms": 10783.6
+      },
+      {
+        "target": "A1018",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "643407edbcab8887e4afc4d4cd633ec2534bc91bfb3092b59e29753f40c0d8db",
+        "prompt_tokens": 1304,
+        "completion_tokens": 278,
+        "latency_ms": 11077.7
+      },
+      {
+        "target": "A1019",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "df51d335571454a7352f7c41f856de29ef596a54db02602029b12922045e02bf",
+        "prompt_tokens": 802,
+        "completion_tokens": 507,
+        "latency_ms": 20303.6
+      },
+      {
+        "target": "A1019",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "df51d335571454a7352f7c41f856de29ef596a54db02602029b12922045e02bf",
+        "prompt_tokens": 1347,
+        "completion_tokens": 508,
+        "latency_ms": 20187.5
+      },
+      {
+        "target": "A1019",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "df51d335571454a7352f7c41f856de29ef596a54db02602029b12922045e02bf",
+        "prompt_tokens": 1893,
+        "completion_tokens": 508,
+        "latency_ms": 21129.6
+      },
+      {
+        "target": "A1020",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "3540b035135a8b293d04226f923d8e65d1d2e19f95c6c07b88b738486c2e4e9f",
+        "prompt_tokens": 510,
+        "completion_tokens": 95,
+        "latency_ms": 3983.2
+      },
+      {
+        "target": "A1020",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "3540b035135a8b293d04226f923d8e65d1d2e19f95c6c07b88b738486c2e4e9f",
+        "prompt_tokens": 643,
+        "completion_tokens": 96,
+        "latency_ms": 3640.1
+      },
+      {
+        "target": "A1020",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "3540b035135a8b293d04226f923d8e65d1d2e19f95c6c07b88b738486c2e4e9f",
+        "prompt_tokens": 777,
+        "completion_tokens": 96,
+        "latency_ms": 3771.7
+      },
+      {
+        "target": "A1021",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "usage 2026-10.workflow_runs must stay below the plan limit 1000000",
+          "usage 2026-10.api_calls_peak_per_min must stay below the plan limit 10000",
+          "invoice INV-6063 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "bd30baa479289cc510fa02f6bc34622ab532d965c9d3c159317df07fcc5a2030",
+        "prompt_tokens": 821,
+        "completion_tokens": 472,
+        "latency_ms": 18810.1
+      },
+      {
+        "target": "A1021",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "invoice INV-6063 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "bd30baa479289cc510fa02f6bc34622ab532d965c9d3c159317df07fcc5a2030",
+        "prompt_tokens": 1402,
+        "completion_tokens": 471,
+        "latency_ms": 18698.6
+      },
+      {
+        "target": "A1021",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "invoice INV-6063 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "bd30baa479289cc510fa02f6bc34622ab532d965c9d3c159317df07fcc5a2030",
+        "prompt_tokens": 1927,
+        "completion_tokens": 471,
+        "latency_ms": 19670.6
+      },
+      {
+        "target": "A1022",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "0802744c9948c40b8e2b0f5010543fb982db34b6e8c77aa1b254daebd8facc4f",
+        "prompt_tokens": 926,
+        "completion_tokens": 630,
+        "latency_ms": 24967.8
+      },
+      {
+        "target": "A1022",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "0802744c9948c40b8e2b0f5010543fb982db34b6e8c77aa1b254daebd8facc4f",
+        "prompt_tokens": 1594,
+        "completion_tokens": 631,
+        "latency_ms": 25549.9
+      },
+      {
+        "target": "A1022",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "0802744c9948c40b8e2b0f5010543fb982db34b6e8c77aa1b254daebd8facc4f",
+        "prompt_tokens": 2263,
+        "completion_tokens": 631,
+        "latency_ms": 26985.3
+      },
+      {
+        "target": "A1023",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "e1a3b5a3fd1e1b8dc0a55c081f4420855a05b55c5ca817132735169a76bda838",
+        "prompt_tokens": 797,
+        "completion_tokens": 459,
+        "latency_ms": 18330.2
+      },
+      {
+        "target": "A1023",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "e1a3b5a3fd1e1b8dc0a55c081f4420855a05b55c5ca817132735169a76bda838",
+        "prompt_tokens": 1294,
+        "completion_tokens": 460,
+        "latency_ms": 18529.8
+      },
+      {
+        "target": "A1023",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "e1a3b5a3fd1e1b8dc0a55c081f4420855a05b55c5ca817132735169a76bda838",
+        "prompt_tokens": 1792,
+        "completion_tokens": 460,
+        "latency_ms": 18983.7
+      },
+      {
+        "target": "A1024",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "invoice INV-6070 is failed and needs a failure_reason",
+          "invoice INV-6071 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "1c2d35deb500ee6d3b28213a2079fd88885a8b6198bf4576329821cd24dcd4cb",
+        "prompt_tokens": 820,
+        "completion_tokens": 470,
+        "latency_ms": 18530.4
+      },
+      {
+        "target": "A1024",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "invoice INV-6070 is failed and needs a failure_reason",
+          "invoice INV-6071 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "1c2d35deb500ee6d3b28213a2079fd88885a8b6198bf4576329821cd24dcd4cb",
+        "prompt_tokens": 1360,
+        "completion_tokens": 471,
+        "latency_ms": 18693.5
+      },
+      {
+        "target": "A1024",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "invoice INV-6070 is failed and needs a failure_reason",
+          "invoice INV-6071 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "1c2d35deb500ee6d3b28213a2079fd88885a8b6198bf4576329821cd24dcd4cb",
+        "prompt_tokens": 1901,
+        "completion_tokens": 471,
+        "latency_ms": 19617.1
+      },
+      {
+        "target": "A1025",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "0648382461463e1853017aa4280b462fe8a00fed42302f392deba44bebf17c29",
+        "prompt_tokens": 966,
+        "completion_tokens": 700,
+        "latency_ms": 27700.3
+      },
+      {
+        "target": "A1025",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "0648382461463e1853017aa4280b462fe8a00fed42302f392deba44bebf17c29",
+        "prompt_tokens": 1704,
+        "completion_tokens": 701,
+        "latency_ms": 29666.1
+      },
+      {
+        "target": "A1025",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "0648382461463e1853017aa4280b462fe8a00fed42302f392deba44bebf17c29",
+        "prompt_tokens": 2443,
+        "completion_tokens": 701,
+        "latency_ms": 30645.2
+      },
+      {
+        "target": "A1026",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "22e5c49581acc2edc0edb4b95127d9bf0f1e7810e4f2c9bf92b9d1b774467a32",
+        "prompt_tokens": 863,
+        "completion_tokens": 548,
+        "latency_ms": 21654.4
+      },
+      {
+        "target": "A1026",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "22e5c49581acc2edc0edb4b95127d9bf0f1e7810e4f2c9bf92b9d1b774467a32",
+        "prompt_tokens": 1449,
+        "completion_tokens": 549,
+        "latency_ms": 21960.3
+      },
+      {
+        "target": "A1026",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "22e5c49581acc2edc0edb4b95127d9bf0f1e7810e4f2c9bf92b9d1b774467a32",
+        "prompt_tokens": 2036,
+        "completion_tokens": 549,
+        "latency_ms": 23040.0
+      },
+      {
+        "target": "A1027",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "usage 2026-10.workflow_runs must stay below the plan limit 1000000",
+          "usage 2026-10.api_calls_peak_per_min must stay below the plan limit 10000",
+          "invoice INV-6081 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "a4287c2543169e495ee760d2903aa4ea7f3852e373c279a3783511ef82d0c269",
+        "prompt_tokens": 817,
+        "completion_tokens": 472,
+        "latency_ms": 18725.5
+      },
+      {
+        "target": "A1027",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "invoice INV-6081 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "a4287c2543169e495ee760d2903aa4ea7f3852e373c279a3783511ef82d0c269",
+        "prompt_tokens": 1398,
+        "completion_tokens": 471,
+        "latency_ms": 18844.5
+      },
+      {
+        "target": "A1027",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "invoice INV-6081 is failed and needs a failure_reason",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "a4287c2543169e495ee760d2903aa4ea7f3852e373c279a3783511ef82d0c269",
+        "prompt_tokens": 1923,
+        "completion_tokens": 471,
+        "latency_ms": 19610.4
+      },
+      {
+        "target": "A1028",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "a10badd10c5b05395bc4e9575c1426ef3e000db5f9a5382442de1e85a69ff858",
+        "prompt_tokens": 668,
+        "completion_tokens": 278,
+        "latency_ms": 10816.4
+      },
+      {
+        "target": "A1028",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "a10badd10c5b05395bc4e9575c1426ef3e000db5f9a5382442de1e85a69ff858",
+        "prompt_tokens": 984,
+        "completion_tokens": 279,
+        "latency_ms": 10683.6
+      },
+      {
+        "target": "A1028",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "a10badd10c5b05395bc4e9575c1426ef3e000db5f9a5382442de1e85a69ff858",
+        "prompt_tokens": 1301,
+        "completion_tokens": 279,
+        "latency_ms": 11117.7
+      },
+      {
+        "target": "A1029",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "50ec257795301d8a018ca88cd9f142e61f3be237707e8c17c5d709d2d597379e",
+        "prompt_tokens": 789,
+        "completion_tokens": 453,
+        "latency_ms": 17908.4
+      },
+      {
+        "target": "A1029",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "50ec257795301d8a018ca88cd9f142e61f3be237707e8c17c5d709d2d597379e",
+        "prompt_tokens": 1280,
+        "completion_tokens": 454,
+        "latency_ms": 18031.8
+      },
+      {
+        "target": "A1029",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "50ec257795301d8a018ca88cd9f142e61f3be237707e8c17c5d709d2d597379e",
+        "prompt_tokens": 1772,
+        "completion_tokens": 454,
+        "latency_ms": 18425.7
+      },
+      {
+        "target": "A1030",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "7686793c093a2cbc011b6587783e3527339838e41466facdf4ac15350be3a101",
+        "prompt_tokens": 668,
+        "completion_tokens": 278,
+        "latency_ms": 10800.8
+      },
+      {
+        "target": "A1030",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "7686793c093a2cbc011b6587783e3527339838e41466facdf4ac15350be3a101",
+        "prompt_tokens": 984,
+        "completion_tokens": 279,
+        "latency_ms": 10804.5
+      },
+      {
+        "target": "A1030",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "7686793c093a2cbc011b6587783e3527339838e41466facdf4ac15350be3a101",
+        "prompt_tokens": 1301,
+        "completion_tokens": 279,
+        "latency_ms": 11154.4
+      },
+      {
+        "target": "A1031",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "53ddd098ce2c397369408f7a3052f103230abbdeda9cc31db5b071560b28c80a",
+        "prompt_tokens": 789,
+        "completion_tokens": 452,
+        "latency_ms": 17637.2
+      },
+      {
+        "target": "A1031",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "53ddd098ce2c397369408f7a3052f103230abbdeda9cc31db5b071560b28c80a",
+        "prompt_tokens": 1279,
+        "completion_tokens": 453,
+        "latency_ms": 17875.5
+      },
+      {
+        "target": "A1031",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "53ddd098ce2c397369408f7a3052f103230abbdeda9cc31db5b071560b28c80a",
+        "prompt_tokens": 1770,
+        "completion_tokens": 453,
+        "latency_ms": 18535.8
+      },
+      {
+        "target": "A1032",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "4fb1354b900a646a805b282d429b4a350f6aefca30a073d6ec21b1ba73952e7a",
+        "prompt_tokens": 668,
+        "completion_tokens": 278,
+        "latency_ms": 10763.3
+      },
+      {
+        "target": "A1032",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "4fb1354b900a646a805b282d429b4a350f6aefca30a073d6ec21b1ba73952e7a",
+        "prompt_tokens": 984,
+        "completion_tokens": 279,
+        "latency_ms": 10803.6
+      },
+      {
+        "target": "A1032",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "4fb1354b900a646a805b282d429b4a350f6aefca30a073d6ec21b1ba73952e7a",
+        "prompt_tokens": 1301,
+        "completion_tokens": 279,
+        "latency_ms": 10994.8
+      },
+      {
+        "target": "A1033",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "8004c1782f785fd9d74c6a2d8b59da381fab0b006a71f013cce874b5d2b19625",
+        "prompt_tokens": 511,
+        "completion_tokens": 95,
+        "latency_ms": 3847.8
+      },
+      {
+        "target": "A1033",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "8004c1782f785fd9d74c6a2d8b59da381fab0b006a71f013cce874b5d2b19625",
+        "prompt_tokens": 644,
+        "completion_tokens": 96,
+        "latency_ms": 3643.8
+      },
+      {
+        "target": "A1033",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "8004c1782f785fd9d74c6a2d8b59da381fab0b006a71f013cce874b5d2b19625",
+        "prompt_tokens": 778,
+        "completion_tokens": 96,
+        "latency_ms": 3717.4
+      },
+      {
+        "target": "A1034",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "c29444c34c0ef8ac410c83f05cfa71996c6878c3d30f05f1835163e52cf5285f",
+        "prompt_tokens": 668,
+        "completion_tokens": 278,
+        "latency_ms": 10694.8
+      },
+      {
+        "target": "A1034",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "c29444c34c0ef8ac410c83f05cfa71996c6878c3d30f05f1835163e52cf5285f",
+        "prompt_tokens": 984,
+        "completion_tokens": 279,
+        "latency_ms": 10711.6
+      },
+      {
+        "target": "A1034",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "c29444c34c0ef8ac410c83f05cfa71996c6878c3d30f05f1835163e52cf5285f",
+        "prompt_tokens": 1301,
+        "completion_tokens": 279,
+        "latency_ms": 10948.7
+      },
+      {
+        "target": "A1035",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "usage 2026-10.workflow_runs must stay below the plan limit 1000000",
+          "usage 2026-10.api_calls_peak_per_min must stay below the plan limit 10000",
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "493acf1a017c2766b21b3b9f2ca70a1470244f2541b6076419172a41d412464e",
+        "prompt_tokens": 812,
+        "completion_tokens": 471,
+        "latency_ms": 18493.2
+      },
+      {
+        "target": "A1035",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "493acf1a017c2766b21b3b9f2ca70a1470244f2541b6076419172a41d412464e",
+        "prompt_tokens": 1376,
+        "completion_tokens": 470,
+        "latency_ms": 18635.9
+      },
+      {
+        "target": "A1035",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "493acf1a017c2766b21b3b9f2ca70a1470244f2541b6076419172a41d412464e",
+        "prompt_tokens": 1884,
+        "completion_tokens": 470,
+        "latency_ms": 19394.7
+      },
+      {
+        "target": "A1036",
+        "attempt": 1,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "fe00039c094e20b1c94dac8e3337c4fc0b7e98c2c0b7a349640499f3dcd0ce6b",
+        "prompt_tokens": 628,
+        "completion_tokens": 265,
+        "latency_ms": 10333.8
+      },
+      {
+        "target": "A1036",
+        "attempt": 2,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "fe00039c094e20b1c94dac8e3337c4fc0b7e98c2c0b7a349640499f3dcd0ce6b",
+        "prompt_tokens": 931,
+        "completion_tokens": 266,
+        "latency_ms": 10264.1
+      },
+      {
+        "target": "A1036",
+        "attempt": 3,
+        "outcome": "conformance_error",
+        "problems": [
+          "owner_email is already used by another account; choose a different one"
+        ],
+        "prompt_sha256": "fe00039c094e20b1c94dac8e3337c4fc0b7e98c2c0b7a349640499f3dcd0ce6b",
+        "prompt_tokens": 1235,
+        "completion_tokens": 266,
+        "latency_ms": 10436.9
+      },
+      {
+        "target": "platform_status",
+        "attempt": 1,
+        "outcome": "accepted",
+        "problems": [],
+        "prompt_sha256": "ef2baaeafb9f3b5b34f3045c4d0b72f2cd82a9a2b1d46084f3a5fdd4159e4366",
+        "prompt_tokens": 316,
+        "completion_tokens": 353,
+        "latency_ms": 13249.4
+      }
+    ]
+  }
+}

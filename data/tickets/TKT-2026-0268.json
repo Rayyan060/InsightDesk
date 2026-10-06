@@ -1,0 +1,14 @@
+{
+  "id": "TKT-2026-0268",
+  "subject": "Step timeout on 4.2",
+  "customer_question": "A step that calls our ERP times out with CF-504. What is the limit on 4.2?",
+  "intent": "bug",
+  "resolution": "The limit is 15 minutes from 4.2. Customer moved the ERP call to start-then-poll in two steps.",
+  "tags": [
+    "CF-504",
+    "timeout"
+  ],
+  "resolved_at": "2026-09-30",
+  "product_version": "4.2",
+  "escalated_to_human": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2026-0063",
+  "subject": "Runs stuck in Queued",
+  "customer_question": "All our runs have been Queued for 40 minutes, is something down?",
+  "intent": "bug",
+  "resolution": "A workflow-engine incident was in progress. The support team advised not to re-trigger the runs; queued runs started automatically after the incident was resolved.",
+  "tags": [
+    "queued",
+    "incident",
+    "workflow-engine"
+  ],
+  "resolved_at": "2026-03-04",
+  "product_version": "4.1",
+  "escalated_to_human": false
+}

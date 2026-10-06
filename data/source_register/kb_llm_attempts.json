@@ -1,0 +1,956 @@
+{
+  "model": "qwen2.5:7b",
+  "temperature": 0.2,
+  "seed": 20261006,
+  "prompt_version": "v1",
+  "calls": 97,
+  "prompt_tokens": 57356,
+  "completion_tokens": 17926,
+  "rewritten": [
+    "KB-POL-001",
+    "KB-POL-002",
+    "KB-POL-004",
+    "KB-POL-005",
+    "KB-POL-006",
+    "KB-GS-001",
+    "KB-GS-002",
+    "KB-GS-003",
+    "KB-GS-004",
+    "KB-ACC-002",
+    "KB-BIL-001",
+    "KB-BIL-002",
+    "KB-BIL-003",
+    "KB-BIL-004",
+    "KB-BIL-005",
+    "KB-BIL-006",
+    "KB-API-001",
+    "KB-API-002",
+    "KB-API-003",
+    "KB-API-009",
+    "KB-API-004",
+    "KB-API-005",
+    "KB-API-006",
+    "KB-API-008",
+    "KB-TRB-001",
+    "KB-TRB-003",
+    "KB-TRB-005",
+    "KB-TRB-007",
+    "KB-ADV-001",
+    "KB-ADV-002",
+    "KB-ADV-003",
+    "KB-ADV-004",
+    "KB-ADV-005",
+    "KB-ADV-006",
+    "KB-ADV-007",
+    "KB-ADV-008",
+    "RN-2025-11",
+    "RN-2026-04",
+    "RN-2026-09",
+    "TKT-2025-0311",
+    "TKT-2025-0287",
+    "TKT-2026-0107",
+    "TKT-2026-0042",
+    "TKT-2026-0063",
+    "TKT-2026-0091",
+    "TKT-2026-0120",
+    "TKT-2026-0176",
+    "TKT-2025-0488",
+    "TKT-2026-0251",
+    "TKT-2026-0260",
+    "TKT-2026-0268",
+    "TKT-2026-0199",
+    "TKT-2026-0214",
+    "TKT-2026-0021",
+    "TKT-2026-0155",
+    "TKT-2026-0188",
+    "TKT-2025-0503",
+    "TKT-2026-0230",
+    "TKT-2025-0342",
+    "TKT-2025-0398",
+    "TKT-2025-0450",
+    "TKT-2025-0472",
+    "TKT-2025-0366",
+    "TKT-2025-0414",
+    "TKT-2025-0520"
+  ],
+  "fell_back_to_seeded": [
+    "KB-POL-003",
+    "KB-ACC-001",
+    "KB-API-014",
+    "KB-TRB-002",
+    "KB-TRB-004",
+    "KB-TRB-006",
+    "RN-2026-02"
+  ],
+  "verbatim_fixtures": [
+    "COM-0001",
+    "COM-0002",
+    "TKT-2026-0240"
+  ],
+  "attempts": [
+    {
+      "source_id": "KB-POL-001",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "Refund window: missing fact **last day of the window is still eligible**"
+      ],
+      "prompt_tokens": 721,
+      "completion_tokens": 469
+    },
+    {
+      "source_id": "KB-POL-001",
+      "attempt": 2,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 1230,
+      "completion_tokens": 467
+    },
+    {
+      "source_id": "KB-POL-002",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 752,
+      "completion_tokens": 480
+    },
+    {
+      "source_id": "KB-POL-003",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "When we hand off: missing fact 1",
+        "Talking to a person: missing fact 2",
+        "Answer quality: missing fact 1"
+      ],
+      "prompt_tokens": 744,
+      "completion_tokens": 475
+    },
+    {
+      "source_id": "KB-POL-003",
+      "attempt": 2,
+      "outcome": "conformance_error",
+      "problems": [
+        "When we hand off: missing fact 1",
+        "Talking to a person: missing fact 2",
+        "Answer quality: missing fact 1"
+      ],
+      "prompt_tokens": 1273,
+      "completion_tokens": 537
+    },
+    {
+      "source_id": "KB-POL-003",
+      "attempt": 3,
+      "outcome": "conformance_error",
+      "problems": [
+        "When we hand off: missing fact 1",
+        "Talking to a person: missing fact 2",
+        "Answer quality: missing fact 1"
+      ],
+      "prompt_tokens": 1864,
+      "completion_tokens": 488
+    },
+    {
+      "source_id": "KB-POL-004",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 496,
+      "completion_tokens": 207
+    },
+    {
+      "source_id": "KB-POL-005",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "Reporting a security incident: missing fact 003",
+        "Reporting a security incident: missing fact 1",
+        "Reporting a security incident: missing fact KB-POL-003"
+      ],
+      "prompt_tokens": 607,
+      "completion_tokens": 309
+    },
+    {
+      "source_id": "KB-POL-005",
+      "attempt": 2,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 979,
+      "completion_tokens": 323
+    },
+    {
+      "source_id": "KB-POL-006",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 496,
+      "completion_tokens": 203
+    },
+    {
+      "source_id": "KB-GS-001",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "Steps: missing fact **Publish**"
+      ],
+      "prompt_tokens": 567,
+      "completion_tokens": 278
+    },
+    {
+      "source_id": "KB-GS-001",
+      "attempt": 2,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 876,
+      "completion_tokens": 279
+    },
+    {
+      "source_id": "KB-GS-002",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 525,
+      "completion_tokens": 236
+    },
+    {
+      "source_id": "KB-GS-003",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 519,
+      "completion_tokens": 231
+    },
+    {
+      "source_id": "KB-GS-004",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 464,
+      "completion_tokens": 208
+    },
+    {
+      "source_id": "KB-ACC-001",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "How it works: contains text addressed to an assistant"
+      ],
+      "prompt_tokens": 513,
+      "completion_tokens": 236
+    },
+    {
+      "source_id": "KB-ACC-001",
+      "attempt": 2,
+      "outcome": "conformance_error",
+      "problems": [
+        "How it works: contains text addressed to an assistant"
+      ],
+      "prompt_tokens": 784,
+      "completion_tokens": 236
+    },
+    {
+      "source_id": "KB-ACC-001",
+      "attempt": 3,
+      "outcome": "conformance_error",
+      "problems": [
+        "How it works: contains text addressed to an assistant"
+      ],
+      "prompt_tokens": 1055,
+      "completion_tokens": 235
+    },
+    {
+      "source_id": "KB-ACC-002",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 484,
+      "completion_tokens": 205
+    },
+    {
+      "source_id": "KB-BIL-001",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 486,
+      "completion_tokens": 210
+    },
+    {
+      "source_id": "KB-BIL-002",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 493,
+      "completion_tokens": 198
+    },
+    {
+      "source_id": "KB-BIL-003",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 547,
+      "completion_tokens": 258
+    },
+    {
+      "source_id": "KB-BIL-004",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 492,
+      "completion_tokens": 202
+    },
+    {
+      "source_id": "KB-BIL-005",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 503,
+      "completion_tokens": 246
+    },
+    {
+      "source_id": "KB-BIL-006",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 452,
+      "completion_tokens": 160
+    },
+    {
+      "source_id": "KB-API-001",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 625,
+      "completion_tokens": 335
+    },
+    {
+      "source_id": "KB-API-002",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "Deprecation: missing fact **1 December 2026**"
+      ],
+      "prompt_tokens": 500,
+      "completion_tokens": 204
+    },
+    {
+      "source_id": "KB-API-002",
+      "attempt": 2,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 743,
+      "completion_tokens": 202
+    },
+    {
+      "source_id": "KB-API-003",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 570,
+      "completion_tokens": 324
+    },
+    {
+      "source_id": "KB-API-009",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 406,
+      "completion_tokens": 84
+    },
+    {
+      "source_id": "KB-API-014",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "Rotating in 4.0 and 4.1: missing fact 2",
+        "Rotating in 4.0 and 4.1: missing fact 4.2",
+        "Rotating in 4.0 and 4.1: introduced a fact not in the source: 4.0",
+        "Rotating in 4.0 and 4.1: introduced a fact not in the source: 4.1"
+      ],
+      "prompt_tokens": 505,
+      "completion_tokens": 219
+    },
+    {
+      "source_id": "KB-API-014",
+      "attempt": 2,
+      "outcome": "conformance_error",
+      "problems": [
+        "Rotating in 4.0 and 4.1: missing fact 2",
+        "Rotating in 4.0 and 4.1: missing fact 4",
+        "Rotating in 4.0 and 4.1: missing fact 4.2"
+      ],
+      "prompt_tokens": 841,
+      "completion_tokens": 213
+    },
+    {
+      "source_id": "KB-API-014",
+      "attempt": 3,
+      "outcome": "conformance_error",
+      "problems": [
+        "Rotating in 4.0 and 4.1: missing fact 2",
+        "Rotating in 4.0 and 4.1: missing fact 4",
+        "Rotating in 4.0 and 4.1: missing fact 4.2"
+      ],
+      "prompt_tokens": 1136,
+      "completion_tokens": 213
+    },
+    {
+      "source_id": "KB-API-004",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 486,
+      "completion_tokens": 215
+    },
+    {
+      "source_id": "KB-API-005",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 509,
+      "completion_tokens": 236
+    },
+    {
+      "source_id": "KB-API-006",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 444,
+      "completion_tokens": 157
+    },
+    {
+      "source_id": "KB-API-008",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "Apps without a connector: missing fact **HTTP request**"
+      ],
+      "prompt_tokens": 461,
+      "completion_tokens": 148
+    },
+    {
+      "source_id": "KB-API-008",
+      "attempt": 2,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 644,
+      "completion_tokens": 148
+    },
+    {
+      "source_id": "KB-TRB-001",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 748,
+      "completion_tokens": 485
+    },
+    {
+      "source_id": "KB-TRB-002",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "Cause: missing fact `CF-503`",
+        "Still failing?: missing fact `CF-503`"
+      ],
+      "prompt_tokens": 579,
+      "completion_tokens": 285
+    },
+    {
+      "source_id": "KB-TRB-002",
+      "attempt": 2,
+      "outcome": "conformance_error",
+      "problems": [
+        "Cause: missing fact `CF-503`",
+        "Still failing?: missing fact `CF-503`"
+      ],
+      "prompt_tokens": 912,
+      "completion_tokens": 285
+    },
+    {
+      "source_id": "KB-TRB-002",
+      "attempt": 3,
+      "outcome": "conformance_error",
+      "problems": [
+        "Cause: missing fact `CF-503`",
+        "Still failing?: missing fact `CF-503`"
+      ],
+      "prompt_tokens": 1245,
+      "completion_tokens": 285
+    },
+    {
+      "source_id": "KB-TRB-003",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 451,
+      "completion_tokens": 143
+    },
+    {
+      "source_id": "KB-TRB-004",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "CF-401: missing fact **Settings > API tokens**",
+        "CF-401: missing fact **Settings > Developer > API keys**"
+      ],
+      "prompt_tokens": 519,
+      "completion_tokens": 220
+    },
+    {
+      "source_id": "KB-TRB-004",
+      "attempt": 2,
+      "outcome": "conformance_error",
+      "problems": [
+        "CF-401: missing fact **Settings > API tokens**",
+        "CF-401: missing fact **Settings > Developer > API keys**"
+      ],
+      "prompt_tokens": 794,
+      "completion_tokens": 213
+    },
+    {
+      "source_id": "KB-TRB-004",
+      "attempt": 3,
+      "outcome": "conformance_error",
+      "problems": [
+        "CF-401: missing fact **Settings > API tokens**",
+        "CF-401: missing fact **Settings > Developer > API keys**"
+      ],
+      "prompt_tokens": 1062,
+      "completion_tokens": 213
+    },
+    {
+      "source_id": "KB-TRB-005",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 459,
+      "completion_tokens": 157
+    },
+    {
+      "source_id": "KB-TRB-006",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "Fixing CF-504: introduced a fact not in the source: CF-504"
+      ],
+      "prompt_tokens": 466,
+      "completion_tokens": 198
+    },
+    {
+      "source_id": "KB-TRB-006",
+      "attempt": 2,
+      "outcome": "conformance_error",
+      "problems": [
+        "Fixing CF-504: introduced a fact not in the source: CF-504"
+      ],
+      "prompt_tokens": 710,
+      "completion_tokens": 191
+    },
+    {
+      "source_id": "KB-TRB-006",
+      "attempt": 3,
+      "outcome": "conformance_error",
+      "problems": [
+        "Fixing CF-504: introduced a fact not in the source: CF-504"
+      ],
+      "prompt_tokens": 947,
+      "completion_tokens": 190
+    },
+    {
+      "source_id": "KB-TRB-007",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 502,
+      "completion_tokens": 214
+    },
+    {
+      "source_id": "KB-ADV-001",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 482,
+      "completion_tokens": 201
+    },
+    {
+      "source_id": "KB-ADV-002",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 422,
+      "completion_tokens": 105
+    },
+    {
+      "source_id": "KB-ADV-003",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 425,
+      "completion_tokens": 130
+    },
+    {
+      "source_id": "KB-ADV-004",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 479,
+      "completion_tokens": 182
+    },
+    {
+      "source_id": "KB-ADV-005",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 412,
+      "completion_tokens": 78
+    },
+    {
+      "source_id": "KB-ADV-006",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 417,
+      "completion_tokens": 79
+    },
+    {
+      "source_id": "KB-ADV-007",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "headings must be exactly ['Overview', 'Steps', 'Retention']"
+      ],
+      "prompt_tokens": 515,
+      "completion_tokens": 273
+    },
+    {
+      "source_id": "KB-ADV-007",
+      "attempt": 2,
+      "outcome": "conformance_error",
+      "problems": [
+        "Steps: missing fact 1,000,000",
+        "Steps: missing fact `GET /v2/runs/export`"
+      ],
+      "prompt_tokens": 825,
+      "completion_tokens": 224
+    },
+    {
+      "source_id": "KB-ADV-007",
+      "attempt": 3,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 1102,
+      "completion_tokens": 258
+    },
+    {
+      "source_id": "KB-ADV-008",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 430,
+      "completion_tokens": 130
+    },
+    {
+      "source_id": "RN-2025-11",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 465,
+      "completion_tokens": 153
+    },
+    {
+      "source_id": "RN-2026-02",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "Deprecations: missing fact **stop working on 30 June 2026**"
+      ],
+      "prompt_tokens": 434,
+      "completion_tokens": 121
+    },
+    {
+      "source_id": "RN-2026-02",
+      "attempt": 2,
+      "outcome": "conformance_error",
+      "problems": [
+        "Deprecations: missing fact **stop working on 30 June 2026**"
+      ],
+      "prompt_tokens": 599,
+      "completion_tokens": 121
+    },
+    {
+      "source_id": "RN-2026-02",
+      "attempt": 3,
+      "outcome": "conformance_error",
+      "problems": [
+        "Deprecations: missing fact 1",
+        "Deprecations: missing fact 4",
+        "Deprecations: missing fact 4.1"
+      ],
+      "prompt_tokens": 764,
+      "completion_tokens": 86
+    },
+    {
+      "source_id": "RN-2026-04",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 454,
+      "completion_tokens": 145
+    },
+    {
+      "source_id": "RN-2026-09",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "Deprecation: legacy API keys: missing fact **stop working on 1 December 2026**"
+      ],
+      "prompt_tokens": 509,
+      "completion_tokens": 219
+    },
+    {
+      "source_id": "RN-2026-09",
+      "attempt": 2,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 775,
+      "completion_tokens": 219
+    },
+    {
+      "source_id": "TKT-2025-0311",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 447,
+      "completion_tokens": 80
+    },
+    {
+      "source_id": "TKT-2025-0287",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "resolution: introduced a fact not in the source: 3.8"
+      ],
+      "prompt_tokens": 434,
+      "completion_tokens": 74
+    },
+    {
+      "source_id": "TKT-2025-0287",
+      "attempt": 2,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 547,
+      "completion_tokens": 68
+    },
+    {
+      "source_id": "TKT-2026-0107",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 437,
+      "completion_tokens": 99
+    },
+    {
+      "source_id": "TKT-2026-0042",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 430,
+      "completion_tokens": 69
+    },
+    {
+      "source_id": "TKT-2026-0063",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 421,
+      "completion_tokens": 60
+    },
+    {
+      "source_id": "TKT-2026-0091",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 430,
+      "completion_tokens": 71
+    },
+    {
+      "source_id": "TKT-2026-0120",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 419,
+      "completion_tokens": 68
+    },
+    {
+      "source_id": "TKT-2026-0176",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "customer_question: introduced a fact not in the source: CF-503"
+      ],
+      "prompt_tokens": 412,
+      "completion_tokens": 100
+    },
+    {
+      "source_id": "TKT-2026-0176",
+      "attempt": 2,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 553,
+      "completion_tokens": 89
+    },
+    {
+      "source_id": "TKT-2025-0488",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 428,
+      "completion_tokens": 69
+    },
+    {
+      "source_id": "TKT-2026-0251",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 415,
+      "completion_tokens": 61
+    },
+    {
+      "source_id": "TKT-2026-0260",
+      "attempt": 1,
+      "outcome": "conformance_error",
+      "problems": [
+        "resolution: introduced a fact not in the source: CF-503"
+      ],
+      "prompt_tokens": 413,
+      "completion_tokens": 77
+    },
+    {
+      "source_id": "TKT-2026-0260",
+      "attempt": 2,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 530,
+      "completion_tokens": 65
+    },
+    {
+      "source_id": "TKT-2026-0268",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 433,
+      "completion_tokens": 67
+    },
+    {
+      "source_id": "TKT-2026-0199",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 414,
+      "completion_tokens": 52
+    },
+    {
+      "source_id": "TKT-2026-0214",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 415,
+      "completion_tokens": 57
+    },
+    {
+      "source_id": "TKT-2026-0021",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 421,
+      "completion_tokens": 64
+    },
+    {
+      "source_id": "TKT-2026-0155",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 429,
+      "completion_tokens": 72
+    },
+    {
+      "source_id": "TKT-2026-0188",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 430,
+      "completion_tokens": 65
+    },
+    {
+      "source_id": "TKT-2025-0503",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 433,
+      "completion_tokens": 82
+    },
+    {
+      "source_id": "TKT-2026-0230",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 427,
+      "completion_tokens": 107
+    },
+    {
+      "source_id": "TKT-2025-0342",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 426,
+      "completion_tokens": 59
+    },
+    {
+      "source_id": "TKT-2025-0398",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 418,
+      "completion_tokens": 87
+    },
+    {
+      "source_id": "TKT-2025-0450",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 420,
+      "completion_tokens": 63
+    },
+    {
+      "source_id": "TKT-2025-0472",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 420,
+      "completion_tokens": 53
+    },
+    {
+      "source_id": "TKT-2025-0366",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 414,
+      "completion_tokens": 49
+    },
+    {
+      "source_id": "TKT-2025-0414",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 420,
+      "completion_tokens": 55
+    },
+    {
+      "source_id": "TKT-2025-0520",
+      "attempt": 1,
+      "outcome": "accepted",
+      "problems": [],
+      "prompt_tokens": 425,
+      "completion_tokens": 67
+    }
+  ]
+}

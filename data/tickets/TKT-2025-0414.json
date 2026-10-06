@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2025-0414",
+  "subject": "Setting up a cron trigger",
+  "customer_question": "How do I run a workflow every night at 2am? Version 3.9.",
+  "intent": "how_to",
+  "resolution": "Created a cron trigger in Settings > Triggers > Cron with the expression 0 2 * * *.",
+  "tags": [
+    "cron",
+    "triggers",
+    "3.x"
+  ],
+  "resolved_at": "2025-05-06",
+  "product_version": "3.9",
+  "escalated_to_human": false
+}

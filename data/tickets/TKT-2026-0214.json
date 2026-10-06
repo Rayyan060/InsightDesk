@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2026-0214",
+  "subject": "API token posted publicly",
+  "customer_question": "Our CloudFlow token is in a public repository!",
+  "intent": "account",
+  "resolution": "You immediately revoked the token in the Settings > API tokens menu. We escalated your issue to the security queue at urgent priority. They reviewed access logs within the hour.",
+  "tags": [
+    "security",
+    "api-token",
+    "incident"
+  ],
+  "resolved_at": "2026-06-02",
+  "product_version": "4.2",
+  "escalated_to_human": true
+}

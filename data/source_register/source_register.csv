@@ -1,0 +1,76 @@
+source_id,doc_type,title,authority_level,product_versions,last_updated,effective_from,deprecated_on,supersedes,provenance,synthetic
+COM-0001,community,Quick fix for CF-503 Salesforce errors (community tip),5,3.x,2025-08-14,,,,Spec-authored with an AI coding assistant; seeded render (spec v1),Y
+COM-0002,community,Getting more API calls on the Free plan,5,all,2026-05-03,,,,Spec-authored with an AI coding assistant; seeded render (spec v1),Y
+KB-ACC-001,article,Resetting your password,1,all,2026-08-20,,,,Spec-authored with an AI coding assistant; seeded render (spec v1),Y
+KB-ACC-002,article,Two-factor authentication and sign-in lockouts,1,4.0+,2026-03-09,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-ADV-001,article,Error handling and retry policies,1,4.0+,2026-05-05,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-ADV-002,article,Variables and the secrets vault,1,4.0+,2026-05-05,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-ADV-003,article,Cron triggers,1,"3.x, 4.0",2026-02-02,2024-05-06,2026-06-30,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-ADV-004,article,Schedules,1,4.1+,2026-07-01,2026-02-02,,KB-ADV-003,"LLM: qwen2.5:7b, prompt v1",Y
+KB-ADV-005,article,Exporting run history in CloudFlow 3.x,1,3.x,2025-03-11,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-ADV-006,article,Exporting run history in CloudFlow 4.0 and 4.1,1,4.0-4.1,2025-11-03,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-ADV-007,article,Exporting workflow run history,1,4.2+,2026-09-10,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-ADV-008,article,Run history retention,1,all,2026-03-15,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-API-001,article,CloudFlow REST API overview,1,4.0+,2026-04-14,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-API-002,article,Legacy API keys (CloudFlow 3.x),1,3.x,2026-09-15,,2026-12-01,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-API-003,article,API rate limits and 429 errors,1,all,2026-08-01,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-API-004,article,Webhooks,1,4.0+,2026-06-22,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-API-005,article,Connecting Salesforce,1,all,2026-04-14,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-API-006,article,Slack and Microsoft Teams connectors,1,4.0+,2026-03-02,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-API-008,article,Supported integrations,1,all,2026-09-01,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-API-009,article,Rotating API tokens,1,4.0+,2025-11-03,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-API-014,article,Rotating API tokens,1,4.0+,2026-08-20,,,KB-API-009,Spec-authored with an AI coding assistant; seeded render (spec v1),Y
+KB-BIL-001,article,Plans and pricing,1,all,2026-08-01,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-BIL-002,article,Understanding your invoice,1,all,2026-04-18,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-BIL-003,article,Duplicate and unrecognised charges,1,all,2026-07-01,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-BIL-004,article,Failed payments and past-due accounts,1,all,2026-05-27,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-BIL-005,article,Requesting a refund,1,all,2026-09-15,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-BIL-006,article,Changing or cancelling your plan,1,all,2026-04-02,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-GS-001,article,Getting started with CloudFlow,1,4.0+,2026-05-12,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-GS-002,article,Inviting teammates and managing seats,1,all,2026-06-03,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-GS-003,article,Building your first workflow,1,4.0+,2026-05-12,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-GS-004,article,Workspace roles and permissions,1,all,2026-02-20,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-POL-001,policy,Refund policy,1,all,2026-09-15,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-POL-002,policy,Plans and usage limits,1,all,2026-08-01,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-POL-003,policy,Escalation and support response targets,1,all,2026-09-01,,,,Spec-authored with an AI coding assistant; seeded render (spec v1),Y
+KB-POL-004,policy,Account deletion policy,1,all,2026-06-10,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-POL-005,policy,Security and account access policy,1,all,2026-08-20,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-POL-006,policy,Billing disputes policy,1,all,2026-07-01,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-TRB-001,article,CloudFlow error code reference,1,all,2026-09-10,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-TRB-002,article,Fixing CF-503 errors in Salesforce steps,1,all,2026-06-30,,,,Spec-authored with an AI coding assistant; seeded render (spec v1),Y
+KB-TRB-003,article,Workflow runs stuck in Queued,1,all,2026-07-21,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-TRB-004,article,"Authentication and permission errors (CF-401, CF-403)",1,all,2026-08-20,,,,Spec-authored with an AI coding assistant; seeded render (spec v1),Y
+KB-TRB-005,article,Webhook delivery failures,1,4.0+,2026-06-22,,,,"LLM: qwen2.5:7b, prompt v1",Y
+KB-TRB-006,article,Step timeouts (CF-504),1,all,2026-04-14,,,,Spec-authored with an AI coding assistant; seeded render (spec v1),Y
+KB-TRB-007,article,Monthly workflow-run limit reached (CF-402),1,all,2026-08-01,,,,"LLM: qwen2.5:7b, prompt v1",Y
+RN-2025-11,release_note,CloudFlow 4.0 release notes,2,"3.x, 4.0+",2025-11-03,2025-11-03,,,"LLM: qwen2.5:7b, prompt v1",Y
+RN-2026-02,release_note,CloudFlow 4.1 release notes,2,"3.x, 4.0+",2026-02-02,2026-02-02,,,Spec-authored with an AI coding assistant; seeded render (spec v1),Y
+RN-2026-04,release_note,CloudFlow 4.2 release notes,2,4.2+,2026-04-14,2026-04-14,,,"LLM: qwen2.5:7b, prompt v1",Y
+RN-2026-09,release_note,CloudFlow 4.3 release notes,2,"3.x, 4.3",2026-09-15,2026-09-15,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0287,ticket,Regenerating an API key on 3.8,4,3.x,2025-02-20,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0311,ticket,Export run history on 3.9,4,3.x,2025-03-12,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0342,ticket,CF-503 on Salesforce step (3.9),4,3.x,2025-04-18,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0366,ticket,Reset link pasted in chat,4,all,2025-06-11,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0398,ticket,CF-503 after Salesforce password change,4,4.0+,2025-12-09,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0414,ticket,Setting up a cron trigger,4,3.x,2025-05-06,,2026-06-30,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0450,ticket,Rate limit raised temporarily,4,all,2025-08-29,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0472,ticket,Refund after 30 days on Pro,4,all,2025-09-15,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0488,ticket,Step timeout on 3.9,4,3.x,2025-09-02,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0503,ticket,Suspended without warning,4,all,2025-10-02,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2025-0520,ticket,Token rotation maintenance window,4,4.0-4.1,2025-12-12,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0021,ticket,Refund for unused month,4,all,2026-01-15,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0042,ticket,Password reset email,4,all,2026-01-19,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0063,ticket,Runs stuck in Queued,4,all,2026-03-04,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0091,ticket,Cron trigger stopped firing,4,4.0+,2026-07-03,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0107,ticket,429 errors on Pro plan,4,4.0+,2026-02-11,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0120,ticket,Seat limit reached,4,all,2026-04-08,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0155,ticket,"Charged twice, wants a manager",4,all,2026-02-24,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0176,ticket,Webhook signature failures after rotation,4,4.0+,2026-06-25,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0188,ticket,Outage cost a day of orders,4,all,2026-05-20,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0199,ticket,Account deletion request,4,all,2026-05-14,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0214,ticket,API token posted publicly,4,4.0+,2026-06-02,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0230,ticket,Workflows deleted by a teammate,4,all,2026-07-28,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0240,ticket,Refund demand with embedded instructions,4,all,2026-08-11,,,,Spec-authored with an AI coding assistant; seeded render (spec v1),Y
+TKT-2026-0251,ticket,Export run history as JSON,4,4.2+,2026-09-22,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0260,ticket,Past-due after card expiry,4,all,2026-09-28,,,,"LLM: qwen2.5:7b, prompt v1",Y
+TKT-2026-0268,ticket,Step timeout on 4.2,4,4.2+,2026-09-30,,,,"LLM: qwen2.5:7b, prompt v1",Y

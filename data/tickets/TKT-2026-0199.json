@@ -1,0 +1,14 @@
+{
+  "id": "TKT-2026-0199",
+  "subject": "Account deletion request",
+  "customer_question": "We are closing the company, delete everything we have with you.",
+  "intent": "account",
+  "resolution": "Handed to the account team, who verified the owner's identity by email before scheduling deletion. Customer exported run history first.",
+  "tags": [
+    "deletion",
+    "account"
+  ],
+  "resolved_at": "2026-05-14",
+  "product_version": "4.2",
+  "escalated_to_human": true
+}

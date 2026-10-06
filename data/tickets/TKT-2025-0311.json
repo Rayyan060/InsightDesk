@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2025-0311",
+  "subject": "Export run history on 3.9",
+  "customer_question": "Need a CSV of all runs from last week, version 3.9. Where is the export?",
+  "intent": "how_to",
+  "resolution": "I went to Settings > Data > Export runs, chose the last 7 days and clicked Export CSV. I also explained the 10,000-row limit and 30-day range for 3.x.",
+  "tags": [
+    "export",
+    "run-history",
+    "3.x"
+  ],
+  "resolved_at": "2025-03-12",
+  "product_version": "3.9",
+  "escalated_to_human": false
+}

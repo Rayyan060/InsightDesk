@@ -1,0 +1,14 @@
+{
+  "id": "TKT-2026-0120",
+  "subject": "Seat limit reached",
+  "customer_question": "We can't invite a new teammate, it says Seat limit reached. Pro plan.",
+  "intent": "account",
+  "resolution": "The Pro plan includes 10 seats, and all of them were in use. The customer removed two inactive members from the Settings > Members menu, and the invites started working again.",
+  "tags": [
+    "seats",
+    "members"
+  ],
+  "resolved_at": "2026-04-08",
+  "product_version": "4.1",
+  "escalated_to_human": false
+}

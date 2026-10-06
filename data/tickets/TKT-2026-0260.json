@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2026-0260",
+  "subject": "Past-due after card expiry",
+  "customer_question": "Our account says past due. The card on file expired.",
+  "intent": "billing",
+  "resolution": "The invoice failed with the expired card. The agent instructed the customer to update the payment method and click Retry payment. After the customer followed the steps, the account was returned to an active status.",
+  "tags": [
+    "billing",
+    "past-due",
+    "failed-payment"
+  ],
+  "resolved_at": "2026-09-28",
+  "product_version": "4.3",
+  "escalated_to_human": false
+}

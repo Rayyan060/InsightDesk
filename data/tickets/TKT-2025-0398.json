@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2025-0398",
+  "subject": "CF-503 after Salesforce password change",
+  "customer_question": "I keep getting CF-503 errors in Salesforce since I changed my password, and it's driving me crazy! I'm on version 4.0.",
+  "intent": "bug",
+  "resolution": "The support agent told me to delete the Salesforce connection and create a new one. Then, I had to manually re-link each workflow to it. It was a pain, but it fixed the issue.",
+  "tags": [
+    "CF-503",
+    "salesforce",
+    "connector"
+  ],
+  "resolved_at": "2025-12-09",
+  "product_version": "4.0",
+  "escalated_to_human": false
+}

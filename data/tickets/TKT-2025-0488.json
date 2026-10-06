@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2025-0488",
+  "subject": "Step timeout on 3.9",
+  "customer_question": "Our data sync step fails with CF-504 after a few minutes. 3.9.",
+  "intent": "bug",
+  "resolution": "The 3.x steps are limited to 5 minutes. The customer split the step into pages of 500 rows, and the runs now finish without errors.",
+  "tags": [
+    "CF-504",
+    "timeout",
+    "3.x"
+  ],
+  "resolved_at": "2025-09-02",
+  "product_version": "3.9",
+  "escalated_to_human": false
+}

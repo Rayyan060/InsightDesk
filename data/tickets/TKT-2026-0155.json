@@ -1,0 +1,15 @@
+{
+  "id": "TKT-2026-0155",
+  "subject": "Charged twice, wants a manager",
+  "customer_question": "This is ridiculous, I have been charged twice this month and nobody answers. I want a manager.",
+  "intent": "complaint",
+  "resolution": "We escalated your issue to the billing queue and provided both invoices. The billing team confirmed the duplicate charge and refunded the second invoice. A team lead also called you to discuss the matter further.",
+  "tags": [
+    "duplicate-charge",
+    "billing",
+    "angry"
+  ],
+  "resolved_at": "2026-02-24",
+  "product_version": "4.1",
+  "escalated_to_human": true
+}

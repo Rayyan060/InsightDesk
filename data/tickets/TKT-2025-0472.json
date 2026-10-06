@@ -1,0 +1,14 @@
+{
+  "id": "TKT-2025-0472",
+  "subject": "Refund after 30 days on Pro",
+  "customer_question": "Can we get a refund for last month's Pro charge? It was 30 days ago.",
+  "intent": "billing",
+  "resolution": "The agent issued a refund for the 30-day-old Pro invoice as a goodwill gesture.",
+  "tags": [
+    "refund",
+    "billing"
+  ],
+  "resolved_at": "2025-09-15",
+  "product_version": "3.9",
+  "escalated_to_human": true
+}

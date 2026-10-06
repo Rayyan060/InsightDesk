@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Environment
+.env
+
+# Runtime data (generated)
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/chroma/
+data/.cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Participant guide: 43 MB of page photos, classified Internal. The hand transcription
+# docs/reference/guide_extract.md is committed instead.
+docs/reference/participant_guide.pdf
